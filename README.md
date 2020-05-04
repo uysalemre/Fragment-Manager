@@ -54,7 +54,7 @@
                                                      .withViewGroup(fragments)
                                                      .withSupportFragmentManager(getSupportFragmentManager()));
 
-                  bottomNavigationView.setOnNavigationItemSelectedListener(menuItem -> {
+                  bottomNavigation.setOnNavigationItemSelectedListener(menuItem -> {
                       switch(menuItem.getItemId()) {
                           case R.id.navigation_accounts:
                               StateManager.getInstance().showOnNavigationClick(R.id.navigation_accounts, new FragmentAccounts());
@@ -69,9 +69,9 @@
                       return false;
                   });
 
-                  bottomNavigationView.setSelectedItemId(R.id.navigation_accounts);
+                  bottomNavigation.setSelectedItemId(R.id.navigation_accounts);
 
-                  bottomNavigationView.setOnNavigationItemReselectedListener(item -> { });
+                  bottomNavigation.setOnNavigationItemReselectedListener(item -> { });
 
               }
 
