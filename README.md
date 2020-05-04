@@ -111,4 +111,6 @@
 
          StateManager.getInstance().removeAll();
 
-### Example Application Will Be Published Soon...
+### For Example Application Follow The Link Below
+
+https://medium.com/@uysalemre02/nested-fragment-management-and-bottom-navigation-android-5493eceea890
