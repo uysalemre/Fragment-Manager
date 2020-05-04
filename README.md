@@ -18,7 +18,7 @@
    - Add the dependency
 
           dependencies {
-            implementation 'com.github.uysalemre:FragmentStateManager:0.1.0'
+            implementation 'com.github.uysalemre:Fragment-Manager:0.1.0'
           }
 
 
