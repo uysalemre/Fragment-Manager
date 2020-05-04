@@ -103,7 +103,7 @@
 
          StateManager.getInstance().removeAllFragmentStream(R.id.navigation_explore, new FragmentExplore());
 
-### Assume that you want to remove all this control
+### Assume that you want to remove fragment manager control over fragments
    - Warning this function will set instance to null
    - For example you must use this when your user wants to logout from application
 
