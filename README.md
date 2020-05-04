@@ -37,7 +37,7 @@
           public class MainActivity extends AppCompatActivity {
               private ViewGroup fragments;
               private BottomNavigationView bottomNavigation;
-                       ...
+              ...
 
               @Override
               protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +46,7 @@
 
                   fragments = findViewById(R.id.frame_layout);
                   bottomNavigation = findViewById(R.id.bottom_navigation_menu);
-                           ...
+                  ...
                   StateManager.buildInstance(new StateManagerBuilder(   R.id.navigation_accounts,
                                                                         R.id.navigation_explore,
                                                                         R.id.navigation_likes
@@ -105,7 +105,7 @@
 
 ### Assume that you want to remove all this control
    - Warning this function will set instance to null
-            - For example you must use this when your user wants to logout from application
+   - For example you must use this when your user wants to logout from application
 
          StateManager.getInstance().removeAll();
 
