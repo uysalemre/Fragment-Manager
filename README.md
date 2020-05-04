@@ -106,6 +106,8 @@
 ### Assume that you want to remove fragment manager control over fragments
    - Warning this function will set instance to null
    - For example you must use this when your user wants to logout from application
+   - If you are not using system.exit(0) in your activity to exit from application or your fragment container activity destroyed from somewhere in code you have to use this function **onDestroy** state because otherwise you will get Exception from onSavedInstanceState
+   
 
          StateManager.getInstance().removeAll();
 
