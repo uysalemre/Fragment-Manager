@@ -1,4 +1,4 @@
-# Fragment State Manager
+# Fragment Manager
 
 ## Information
    - This is an Android Library that works with fragments and bottom navigation view.
